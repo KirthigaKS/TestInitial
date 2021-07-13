@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-13T06:22:03 IST" name="Suite" finished-at="2021-07-13T06:22:27 IST" duration-ms="24218">
+    <groups>
+    </groups>
+    <test started-at="2021-07-13T06:22:03 IST" name="Test" finished-at="2021-07-13T06:22:27 IST" duration-ms="24218">
+      <class name="test.SeleniumAutomation">
+        <test-method is-config="true" signature="configureSuite(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.SeleniumAutomation@78ffe6dc]" started-at="2021-07-13T06:22:03 IST" name="configureSuite" finished-at="2021-07-13T06:22:03 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data\log.xls]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Search]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tag]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://www.google.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureSuite -->
+        <test-method is-config="true" signature="initializebrowser()[pri:0, instance:test.SeleniumAutomation@78ffe6dc]" started-at="2021-07-13T06:22:03 IST" name="initializebrowser" finished-at="2021-07-13T06:22:19 IST" duration-ms="16081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializebrowser -->
+        <test-method signature="Selenium(java.lang.String)[pri:0, instance:test.SeleniumAutomation@78ffe6dc]" started-at="2021-07-13T06:22:19 IST" name="Selenium" data-provider="Users" finished-at="2021-07-13T06:22:26 IST" duration-ms="6299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello World]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selenium -->
+        <test-method signature="Selenium(java.lang.String)[pri:0, instance:test.SeleniumAutomation@78ffe6dc]" started-at="2021-07-13T06:22:26 IST" name="Selenium" data-provider="Users" finished-at="2021-07-13T06:22:27 IST" duration-ms="1490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selenium -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:test.SeleniumAutomation@78ffe6dc]" started-at="2021-07-13T06:22:27 IST" name="closebrowser" finished-at="2021-07-13T06:22:27 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- test.SeleniumAutomation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

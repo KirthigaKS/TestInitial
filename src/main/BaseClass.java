@@ -5,7 +5,6 @@ import jxl.Cell;
 import jxl.Sheet;
 import jxl.Workbook;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
@@ -19,19 +18,22 @@ public class BaseClass {
 	public static String sheet;
 	public static String usergroup;
 	public static String baseurl;
-	WebDriver driver;
+	public static String browser;
+	
 
 	
 	@BeforeSuite(alwaysRun = true)
-	@Parameters({"datapath","sheet","usergroup","baseurl"})
-	public void configureSuite(String datapath, String sheet, String usergroup, String baseurl) throws Exception
+	@Parameters({"datapath","sheet","usergroup","baseurl","browser"})
+	public void configureSuite(String datapath, String sheet, String usergroup, String baseurl,String browser) throws Exception
 	{
 		BaseClass.datapath1=datapath;
 		BaseClass.sheet=sheet;
 		BaseClass.usergroup=usergroup;
 		BaseClass.baseurl=baseurl;
-					
+		BaseClass.browser=browser;
+				
 	}
+
 	
 
 	@DataProvider(name = "Users")
@@ -78,6 +80,7 @@ public class BaseClass {
 
         return(tabArray);
     }
+	
 
 	
 
