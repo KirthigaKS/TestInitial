@@ -10,14 +10,12 @@ import main.BaseClass;
 import main.ConstantClass;
 
 
-<<<<<<< Updated upstream:src/test/SeleniumAutomation.java
-public class SeleniumAutomation extends BaseClass
-{
-	WebDriver driver;
-=======
+
 public class SearchHelloWorld extends BaseClass{
 	
->>>>>>> Stashed changes:src/test/SearchHelloWorld.java
+	WebDriver driver;
+	
+
 	
 	@BeforeTest(alwaysRun=true)
 	public void initializebrowser()
