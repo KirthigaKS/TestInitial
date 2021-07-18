@@ -12,7 +12,7 @@
   <test name="Test">
  
     <classes>
-      <class name="test.SeleniumAutomation"/>
+      <class name="test.SearchHelloWorld"/>
     </classes>
   </test> 
         
