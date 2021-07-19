@@ -35,9 +35,12 @@ public class SearchHelloWorld extends BaseClass{
 		{
 		System.out.println("Started TestRun");
 		driver.navigate().to(baseurl);
-		boolean verify=driver.getPageSource().contains("Google");
-		System.out.println("Google is Present or Not ?"+verify);
-		Setvalue(ConstantClass.searchbox,ConstantClass.value,"xpath");
+		boolean searchboxpath=driver.findElement(By.xpath(ConstantClass.searchbox)).isDisplayed();
+	    System.out.println("SearchBox is Present?:"+searchboxpath);
+		Setvalue(ConstantClass.searchbox,valuefromdatasheet,"xpath");
+		String Text=driver.findElement(By.className("gssb_m")).getText();
+		boolean verify=Text.contains(valuefromdatasheet.toLowerCase().toString());
+		System.out.println(valuefromdatasheet+" is Present or Not ?"+verify);		
 		System.out.println("Completed TestRun");
 		}
 		catch(Exception e)

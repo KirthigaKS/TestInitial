@@ -13,7 +13,11 @@
  
     <classes>
       <class name="test.SearchHelloWorld"/>
+      
     </classes>
+    
+   
+   
   </test> 
         
         
